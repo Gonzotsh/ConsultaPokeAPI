@@ -17,9 +17,9 @@ import dragon from './img/wallTypes/dragon.png';
 import oscuro from './img/wallTypes/oscuro.png';
 import volador from './img/wallTypes/volador.png';
 
+//Obtener imagen en base al tipo de pokemon
 export let wallType = name =>{
     let resultado
-    
     name == "poison" ? resultado = veneno:
     name == "bug" ? resultado = bicho:
     name == "fire" ? resultado = fuego:
