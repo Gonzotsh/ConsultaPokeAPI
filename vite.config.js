@@ -2,7 +2,7 @@ import { resolve } from 'path'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-    base: '/https://gonzotsh.github.io/consultaPokeAPI' ,
+    base: '/consultaPokeAPI' ,
     build: {
         rollupOptions: {
             input: {
